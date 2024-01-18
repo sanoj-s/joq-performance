@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-18T09:23:30 IST" name="Suite" finished-at="2023-05-18T09:24:14 IST" duration-ms="44501">
+    <groups>
+    </groups>
+    <test started-at="2023-05-18T09:23:30 IST" name="PerformanceTest by scripting and data driven" finished-at="2023-05-18T09:24:14 IST" duration-ms="44501">
+      <class name="com.autobots.testcases.DataDrivenTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.autobots.testcases.DataDrivenTest@592e843a]" started-at="2023-05-18T09:23:30 IST" name="SetUp" finished-at="2023-05-18T09:23:30 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TC001_performanceTestByLoadingSamplers()[pri:0, instance:com.autobots.testcases.DataDrivenTest@592e843a]" started-at="2023-05-18T09:23:30 IST" name="TC001_performanceTestByLoadingSamplers" description="Performance test execution by loading the sampler details from excel data" finished-at="2023-05-18T09:24:00 IST" duration-ms="30183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_performanceTestByLoadingSamplers -->
+        <test-method signature="TC002_performanceTestByRunningJMX()[pri:0, instance:com.autobots.testcases.DataDrivenTest@592e843a]" started-at="2023-05-18T09:24:00 IST" name="TC002_performanceTestByRunningJMX" description="Performance test execution by running the JMX file" finished-at="2023-05-18T09:24:14 IST" duration-ms="14259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_performanceTestByRunningJMX -->
+      </class> <!-- com.autobots.testcases.DataDrivenTest -->
+    </test> <!-- PerformanceTest by scripting and data driven -->
+  </suite> <!-- Suite -->
+</testng-results>
