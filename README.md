@@ -23,5 +23,7 @@
 This automation framework will help to kickstart your performance test automation scripting from the base level.	
 	
 Get your latest releases from 
+
+**Author: Sanoj Swaminathan**
 	
 _**make it perfect!**_
