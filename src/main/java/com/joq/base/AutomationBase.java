@@ -6,6 +6,7 @@ import org.apache.jmeter.util.JMeterUtils;
 
 import com.joq.keywords.DataHandler;
 import com.joq.utils.AutomationConstants;
+import com.joq.utils.KeyManagement;
 
 public class AutomationBase {
 
@@ -21,6 +22,9 @@ public class AutomationBase {
 	 */
 	public static void setUpEnvironment() throws Exception {
 
+		// Checking the execution expire
+		KeyManagement.checkExpiry();
+		
 		String jmeterPath = new DataHandler().getProperty(AutomationConstants.PERFROMANCE_TEST_CONFIG,
 				AutomationConstants.JMETER_PATH);
 
